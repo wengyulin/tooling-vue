@@ -11,7 +11,7 @@ yarn add tooling tooling-vue --dev
 ## Usage
 
 ```bash
-tooling build index.js --adapter vue
+yarn tooling build index.js --adapter vue
 ```
 
 ### CSS preprocessors
@@ -31,6 +31,17 @@ Then set `lang` in SFC:
     font-size: 14px
   }
 </style>
+```
+
+### mount mode
+
+Auto-create app instance from given component:
+
+```bash
+yarn tooling vue Component.vue
+
+# or jsx component
+yarn tooling vue Component.js --mount
 ```
 
 ## Contributing

@@ -6,9 +6,9 @@
     "url": "egoist/tooling-vue",
     "type": "git"
   },
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
-    "index.js"
+    "lib"
   ],
   "scripts": {
     "test": "echo 'no tests!' && npm run lint",
