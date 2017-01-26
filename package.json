@@ -1,6 +1,6 @@
 {
   "name": "tooling-vue",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adapter for using Vue with tooling.",
   "repository": {
     "url": "egoist/tooling-vue",
